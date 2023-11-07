@@ -1,0 +1,57 @@
+.khung{
+    width: 300px;
+    border: 1px solid black;
+    height: 280px;
+}
+.anhduong{
+    width:300px;
+    height:190px;
+    object-fit: contain;
+    object-position: center;
+}
+.avatar{
+    background: black;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.3);
+}
+.info{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 80px 1fr;
+}
+.anhduong1{
+    border: 1px solid rgba(0,0,0, 0.5);
+    width: 80px;
+    object-fit: cover;
+    object-position: right;
+    height: 80px;
+    border-radius: 80%;
+}
+.diachi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+
+}
+.name{
+    text-align:center;
+    vertical-align: center;
+    padding: 5px 0;
+}
+.quê{
+    text-align:center;
+    vertical-align: center;
+    padding: 5px 0;
+}
+a{
+    padding: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+    background: rgba(212, 210, 210, 0.99);
+    text-decoration: none;
+}
+.link-face{
+    padding:2px;
+
+    text-align:center;
+    vertical-align: center;
+}
